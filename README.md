@@ -1,8 +1,7 @@
 # My Profile #
 
 ### A forked Jekyll Template ###
-### Followed Their Getting Started Guide ###
-
+### Getting Started Guide ###
 [Getting Started Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
 * Forked minimal-mistakes Jekyll template
@@ -18,6 +17,7 @@
 ### NOTE ###
 For Development use
 ```
-bundle exec jekyll serve
+bundle install
+jekyll serve
 ``` 
 to assure that all gems are loaded when booting server
