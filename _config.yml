@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "If you made a mistake, then you've learned something."
+title                    : "Focus on WHY instead of WHAT will make you a better develop. --Jordi Boggiano"
 title_separator          : "-"
 name                     : "Barbara Perlik"
 description              : "A portfolio for Barbara Perlik"
