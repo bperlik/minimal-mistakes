@@ -1,6 +1,15 @@
-![Hiking on a path](/assets/images/hiking-michelle-small-spencer.jpg)      
+---
+layout: archive
+title: About
+date: 2018-08-01 07:24
+---
 
-## A New Path and Always Learning ##
+![Hiking on a path](/assets/images/hiking-michelle-small-spencer.jpg)      
+>Life is a Grand Adventure: 
+>enjoy the curiosity of discovery,
+>and awareness of what's in front of you.
+
+### Always Learning ###
 Coding has always been a hobby for me. It wasn’t until I started data analysis and setting up layouts in fundraising software that I realized how much I enjoyed it. I love researching, computers, and helping others learn, so I learned on the job and worked my way up data analysis and prospect research in higher education fundraising. However, when I realized that I loved coding just as much as I loved research, I knew it was time to make a career change.
 
 I’ve loved computers ever since I was a kid. My father, a senior systems analyst, would bring home computers and I spent hours building my first program in basic, a hearing test. Later in a college course, I built a SAS website that took orders for hosiery for women of color, and several other basic websites. Dabbling in code had always been a hobby of mine since I was young, I was lucky to have managers who put their faith in me and let me step into roles like data analysis, database maintenance, and report developer, which gave me many opportunities to learn and succeed.

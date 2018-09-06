@@ -1,14 +1,50 @@
-# TDD – Test Driven Development #
+>First solve the problem, then write the code. 
+>                            __ John Johnson
 
-I love TDD because it makes you focus your coding efforts to a specific task, like a group of mini Agile/Scrum sprints. Having written some code years ago before TDD was used, it speeds up the process and saves a lot of wasted effort.
+*I love Test Driven Development (TDD) because it makes you focus your coding efforts to a specific task, like a group of mini Agile/Scrum sprints. Having written some code years ago before TDD was used, I noted how much it speeds up the process and saves a lot of wasted effort in writing and debugging.*
+
+## Solve the Problem First ##
+I solve the problem first:
+Before writing tests, one must fully understand the feature needed. I consider 
+1. INPUT - What is the data required for input or being passed, including data type and method of receiving 
+2. OUTPUT - What is the expected result, including type of object
+3. HOW - What is the process, data structure, logic/iteration, but just brute force, nothing fancy at this point.
+
+## REPL ##
+REPL = Read, Evaluate, Print, Loop, an interactive console environment where one can enter commands and immediately see results displayed.
+I find that using a repl, such as repl.it is very helpful in testing in very low level, what logic will be required. Simply writing the output, such as console.log() or puts, to see the results quicky tests the code.
+Once the basic data structure, iteration and/or algorithm is chosen, then I move to write the test in code.
+
+Only after solving the problem using pencil/paper, a repl or pseudocode, one is ready to start writing a test.
+
+
+## Test-driven development cycle ##
+The following sequence is based on the book Test-Driven Development by Example.
+
+1. Add a test
+Write a test that defines the function or feature in vary narrow, succinct terms. Only the requirements for the feature or function, including exception conditions, should be covered. It can be written in whatever framework is chosen for the software environment. The test should pass if the requirements are met.
+
+2. Run all tests.
+All the tests are run, expecting the new one to fail. It must fail if it truly tests the feature/function that is not yet implemented. The failure proves that the test is functioning and that the object it tests is not working yet. This is commonly referred to as the red phase because the new test should fail. All tests are run to show that other previous tests are still passing and that part of the code is still functioning.
+
+3. Write the code.
+Now write the minimum code to cause the test to pass. The goal is not to write the most elegant code at this point, but to meet the test, even using "brute force". In a later stage, this code will improved to meet higher standards. Do not write code that does anything more than what is required to pass the test. 
+
+4. Run all tests again.
+Now expect all tests, including the new one to pass. This shows that the new feature/function is met and that it didn't break any existing feature. If any tests do not pass the new code section must be adjusted until all test pass again. This is commonly called the green phase, all tests passing.
+
+5. Refactor code.
+Now the code is cleaned up and honed to higher standards,usually best practices or to meet a linter requirements. Duplication should be removed, i.e. DRY up the code. All object names should clearly indicating purpose to improve readability. Extension of code to meet edge cases. Moving code to more appropriate areas if required to meet design conventions or more logical placement. Continually re-running the test cases after each or small group of changes, to make sure that the code didn't break the tests, altering any existing functionality.
+
+6. Repeat.
+Repeating steps 1-5, starting with a new test for a new feature. The steps should be small, with 1-10 edits between each test run. This prevents excessive debugging time, trying to hunt down the changes in a small amount of code is much faster and efficient. It's usually not rquired to test external libraries unless it one believes they are buggy or not meeting standards required for the current purpose. 
 
 ## TDD in simple terms ##
-
 1.	Add a test
 2.	Run all tests & see if new test fails (Red Phase)
 3.	Write the code
-4.	Run Tests
-5.	Refactor cod
+4.	Run Tests & should pass or repeat step 3 (Green Phase)
+5.	Refactor code
 6.	REPEAT
 
 ## BEST PRACTICES ##
@@ -22,33 +58,8 @@ I love TDD because it makes you focus your coding efforts to a specific task, li
     -   Slow running tests
     -	Testing implementation details
 
-## Test-driven development cycle ##
- 
-The following sequence is based on the book Test-Driven Development by Example.
-
-1. Add a test
-In test-driven development, each new feature begins with writing a test. Write a test that defines a function or improvements of a function, which should be very succinct. To write a test, the developer must clearly understand the feature's specification and requirements. The developer can accomplish this through use cases and user stories to cover the requirements and exception conditions, and can write the test in whatever testing framework is appropriate to the software environment. It could be a modified version of an existing test. This is a differentiating feature of test-driven development versus writing unit tests after the code is written: it makes the developer focus on the requirements before writing the code, a subtle but important difference.
-
-2. Run all tests and see if the new test fails
-This validates that the test harness is working correctly, that the new test does not mistakenly pass without requiring any new code, and that the required feature does not already exist. This step also tests the test itself, in the negative: it rules out the possibility that the new test always passes, and therefore is worthless. The new test should also fail for the expected reason. This step increases the developer's confidence that the unit test is testing the correct constraint, and passes only in intended cases.
-
-3. Write the code
-The next step is to write some code that causes the test to pass. The new code written at this stage is not perfect and may, for example, pass the test in an inelegant way. That is acceptable because it will be improved and honed in Step 5.
-At this point, the only purpose of the written code is to pass the test. The programmer must not write code that is beyond the functionality that the test checks.
-
-4. Run tests
-If all test cases now pass, the programmer can be confident that the new code meets the test requirements, and does not break or degrade any existing features. If they do not, the new code must be adjusted until they do.
-
-5. Refactor code
-The growing code base must be cleaned up regularly during test-driven development. New code can be moved from where it was convenient for passing a test to where it more logically belongs. Duplication must be removed. Object, class, module, variable and method names should clearly represent their current purpose and use, as extra functionality is added. As features are added, method bodies can get longer and other objects larger. They benefit from being split and their parts carefully named to improve readability and maintainability, which will be increasingly valuable later in the software lifecycle. 
-Inheritance hierarchies may be rearranged to be more logical and helpful, and perhaps to benefit from recognised design patterns. There are specific and general guidelines for refactoring and for creating clean code. By continually re-running the test cases throughout each refactoring phase, the developer can be confident that process is not altering any existing functionality.
-The concept of removing duplication is an important aspect of any software design. In this case, however, it also applies to the removal of any duplication between the test code and the production code—for example magic numbers or strings repeated in both to make the test pass in Step 3.
-
-6. Repeat
-Starting with another new test, the cycle is then repeated to push forward the functionality. The size of the steps should always be small, with as few as 1 to 10 edits between each test run. If new code does not rapidly satisfy a new test, or other tests fail unexpectedly, the programmer should undo or revert in preference to excessive debugging. Continuous integration helps by providing revertible checkpoints. When using external libraries it is important not to make increments that are so small as to be effectively merely testing the library itself, unless there is some reason to believe that the library is buggy or is not sufficiently feature-complete to serve all the needs of the software under development.
-
-## RSpec settings ##
-to add color and report test speeds
+### My preferred RSpec settings ###
+I use these settings to add color and report test speeds
 
 .rspec file
 ```
@@ -58,10 +69,8 @@ to add color and report test speeds
 --profile
 ```
 
-## Functional Testing ##
+### Example of Functional Testing and Refactoring ###
 Set up test data and expected results before writing each step of function. Attain success using "brute force" if required at first. Then add tests to include edge cases and hard cases, and refactor code to be more efficient and effective depending on goals. Check that the function didn't effect outside of desired effect. 
-
-For writing small examples, it's possible to use simple methods such as console log, but this won't serve for ongoing continuous testing. For that purpose, you can write a function like this example:
 
 ```
 <!DOCTYPE html>
@@ -98,7 +107,7 @@ For writing small examples, it's possible to use simple methods such as console 
 </html>
 ```
 
-## Refactoring ##
+### Refactoring ### 
 The assertions are currently somewhat incomplete because we aren’t yet testing the n weeks ago variant. Before adding it, we should consider refactoring the test code. Currently, this is calling prettyDate for each assertion and passing the now argument. You could easily refactor this into a custom assertion method:
 
 ```

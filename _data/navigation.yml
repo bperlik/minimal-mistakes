@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "About"
-    url: /about/
-  - title: "Projects"
-    url: /projects/
+    url: /_pages/about
+  - title: "Interests"
+    url: /_pages/projects
 
   # - title: "Sample Collections"
   #   url: /collection-archive/

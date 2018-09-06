@@ -1,8 +1,7 @@
-## Debugging ##
-
 >Fix the cause, not the symptom. 
 >                 -- Steve Maguire
 
+## Steps ##
 1.	Identify – what is actually happening vs. what you expected
 2.	Reproduce – outline exact reproduction steps
 3.	Isolate – where is the bug happening in your code (trace where it goes awry)

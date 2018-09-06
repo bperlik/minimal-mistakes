@@ -12,11 +12,11 @@
 
 theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "periwinkle2" #,"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Focus on WHY instead of WHAT will make you a better develop. --Jordi Boggiano"
+title                    : "Researcher to Software Developer"
 title_separator          : "-"
 name                     : "Barbara Perlik"
 description              : "A portfolio for Barbara Perlik"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Barbara Perlik"
   avatar           : "/assets/images/ProfilePic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "An avid software creator, reader, conservationist, and hiker."
+  bio              : "An avid software creator, reader, motorcyclist, and hiker."
   location         : "Northern Virginia"
   email            : "me@barbaraperlik.com"
   uri              :
@@ -272,6 +272,7 @@ defaults:
       related: true
   # _pages
   - scope:
+      permalink: /:pages/:title
       path: ""
       type: pages
     values:

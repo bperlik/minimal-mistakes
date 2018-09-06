@@ -1,9 +1,10 @@
-## HOW TO LEARN A NEW SKILL ##
+## How to Learn A New Skill ##
 ![Learn Together](/assets/images/learn-together-john-schnobrich.jpg)      
 
 *(my notes from taking a Coursera class on learning and how I applied to learning software development)*
 
-The acquisition of skill requires practice. Repetition alone, however, does not ensure the acquisition of a skill. Learning or skill acquisition incorporates this idea of experience, proposes that skills develop from the interaction of four components central to information processing. 
+The acquisition of skill requires practice. Repetition alone, however, does not ensure the acquisition of a skill. Learning or skill acqui:w
+sition incorporates this idea of experience, proposes that skills develop from the interaction of four components central to information processing. 
 These components include:
 * SPEED - processing speed, the rate at which information is processed in our processing system; 
 * WHAT - breadth of declarative knowledge, the size of an individual's factual information store; 
