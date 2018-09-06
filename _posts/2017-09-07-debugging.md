@@ -4,7 +4,7 @@
 ## Steps ##
 1.	Identify – what is actually happening vs. what you expected
 2.	Reproduce – outline exact reproduction steps
-3.	Isolate – where is the bug happening in your code (trace where it goes awry)
+3.	Isolate – where is the bug happening in your code (trace where it goes awry). This is MUCH easier if using small steps and TDD.
 4.	Understand – carefully analyze that line to see what is wrong
 5.	Solve – find a solution to fix that wrong area/line
 6.	Test again – to verify it works

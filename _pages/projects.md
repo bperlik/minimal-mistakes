@@ -1,7 +1,6 @@
 ---
 layout: archive
-title: projects
+title: Projects
 date: 2018-08-01 07:24
 ---
-## Projects ##
 < place story and link to ruby gem Whodat>
