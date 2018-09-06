@@ -151,7 +151,9 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
+  - config.ru
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
