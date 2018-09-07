@@ -164,6 +164,9 @@ exclude:
   - README
   - tmp
   - jekyll-auth
+  - bin
+  - _site/bin
+  - /app/_site/bin
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
