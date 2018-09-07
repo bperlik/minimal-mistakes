@@ -272,10 +272,10 @@ defaults:
       comments: false 
       share: false
       related: true
-   # _pages
-   - scope:
-      # permalink: /:pages/:title
-      # permalink: /:title
+  # _pages
+  - scope:
+      #permalink: /:pages/:title
+      permalink: /:title
       path: ""
       type: pages
     values:
