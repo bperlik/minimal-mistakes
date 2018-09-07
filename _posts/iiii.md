@@ -1,3 +1,8 @@
+---
+layout: post
+title: How to Learn
+---
+
 Focusing on WHY instead of WHAT will make you a better developer. -Jordi Boggiano
 ![Learn Together](/assets/images/learn-together-john-schnobrich.jpg)      
 
