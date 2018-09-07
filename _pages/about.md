@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: About
 date: 2018-08-01 07:24
 ---
