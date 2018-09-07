@@ -163,6 +163,7 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - jekyll-auth
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
