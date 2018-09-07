@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Debugging"
 ---
 >Fix the cause, not the symptom. 
