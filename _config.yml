@@ -263,6 +263,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
+      permalink: /:posts/:title
       path: ""
       type: posts
     values:
@@ -275,7 +276,7 @@ defaults:
   # _pages
   - scope:
       #permalink: /:pages/:title
-      permalink: /:title
+      permalink: /:pages/:title
       path: ""
       type: pages
     values:
