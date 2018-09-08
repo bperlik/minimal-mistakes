@@ -6,7 +6,7 @@ title:  "TDD"
 >First solve the problem, then write the code. 
 >                            __ John Johnson
 
- love Test Driven Development (TDD) because it makes you focus your coding efforts to a specific task, like mini Agile Scrum sprints. Having written some code years ago before TDD was used, I noted how much it speeds up the process and saves a lot of wasted effort in writing and debugging.
+ I love Test Driven Development (TDD) because it makes you focus your coding efforts to a specific task, like mini Agile Scrum sprints. Having written some code years ago before TDD was used, I noted how much it speeds up the process and saves a lot of wasted effort in writing and debugging.
 
 ## Solve the Problem First ##
 I solve the problem first:
@@ -16,9 +16,7 @@ Before writing any tests, one must fully understand the feature needed. I consid
 3. HOW - What process, data structure, logic, and/or iteration, but just brute force, nothing fancy at this point.
 
 ## White Board, Paper or REPL ##
-REPL = Read, Evaluate, Print, Loop, an interactive console environment where one can enter commands and immediately see results displayed.
-I prefer a white board for looking at big picture planning, but I find that using a repl, such as repl.it is very helpful in testing in very low level, what logic will be required. Simply writing the output, such as console.log() or puts, to see the results quicky tests the code.
-Once the basic data structure, iteration and/or algorithm is chosen, then I move to write the test in code.
+REPL stands for Read, Evaluate, Print, Loop. It's an interactive console environment where one can enter commands and immediately see results displayed, the actions of the code and the return. I prefer a white board for looking at big picture planning and structure, but I find that using a repl, such as repl.it is very helpful in testing in very low level, what logic will be required. Simply writing the output, such as console.log() or puts, to see the results quicky tests the code. Once the basic data structure, iteration and/or algorithm is chosen, then I move to write the test in code.
 
 Only after solving the basic problem using pencil/paper, a repl or pseudocode, one is ready to start writing a test. Otherwise, the test itself may be testing something other than the target feature.
 
