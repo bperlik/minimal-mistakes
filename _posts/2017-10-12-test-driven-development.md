@@ -6,7 +6,7 @@ title:  "TDD"
 >First solve the problem, then write the code. 
 >                            __ John Johnson
 
-*I love Test Driven Development (TDD) because it makes you focus your coding efforts to a specific task, like mini Agile Scrum sprints. Having written some code years ago before TDD was used, I noted how much it speeds up the process and saves a lot of wasted effort in writing and debugging.*
+ love Test Driven Development (TDD) because it makes you focus your coding efforts to a specific task, like mini Agile Scrum sprints. Having written some code years ago before TDD was used, I noted how much it speeds up the process and saves a lot of wasted effort in writing and debugging.
 
 ## Solve the Problem First ##
 I solve the problem first:
@@ -38,7 +38,7 @@ Now write the minimum code to cause the test to pass. The goal is not to write t
 Now expect all tests, including the new one to pass. This shows that the new feature/function is met and that it didn't break any existing feature. If any tests do not pass the new code section must be adjusted until all test pass again. Repeat steps 3 and 4 until the test passes. This is commonly called the green phase, all tests passing.
 
 5. **Refactor code.**
-Now the code is cleaned up and honed to higher standards,usually best practices or to meet a linter requirements. Duplication should be removed, i.e. DRY up the code. All object names should clearly indicating purpose to improve readability. Extension of code to meet edge cases. Moving code to more appropriate areas if required to meet design conventions or more logical placement. Continually re-running the test cases after each or small group of changes, to make sure that the code didn't break the tests, altering any existing functionality.
+Now the code is cleaned up and honed to higher standards,usually best practices or to meet a linter requirements. Duplication should be removed, i.e. DRY up the code. All object names should clearly indicate the purpose to improve readability. Extend code to meet edge cases. Move code to more appropriate areas if required to meet design conventions or more logical placement. Continually re-run the test cases after each or small group of changes, to make sure that the code didn't break the tests, or altering any existing functionality.
 
 6. **Repeat.**
 Repeating steps 1-5, starting with a new test for a new feature. The steps should be small, with 1-10 edits between each test run. This prevents excessive debugging time, trying to hunt down the changes in a small amount of code is much faster and efficient. It's usually not rquired to test external libraries unless it one believes they are buggy or not meeting standards required for the current purpose. 
