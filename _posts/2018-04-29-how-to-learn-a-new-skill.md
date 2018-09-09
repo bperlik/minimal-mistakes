@@ -16,8 +16,8 @@ These components include:
 * HOW - breadth of procedural skill, the ability to perform the actual skill.
 * WHEN - processing capacity, synonymous with working memory. This improves skill usage by linking environmental cues with appropriate responses. 
 
-### Fitts (1954) model for understanding skill acquisition. ###
-Fitts preposed a model that learning was possible through the completion of various stages. 
+### Fitts model for understanding skill acquisition. ###
+Fitts preposed this model that learning was possible through the completion of various stages. 
 
 ### Cognitive phase (observe and record) ### 
 * OBSERVE WITH FOCUS AND ATTENTION - Attention at this point in the process is significant for the acquisition of skill. Limit distraction so patterns will be apparent. Sharpen focus by taking notes - handwriting in blue pen, self-testing with quick recall, and organization of new concepts.
@@ -31,6 +31,4 @@ Fitts preposed a model that learning was possible through the completion of vari
 ### Autonomous phase (improve speed and technique) ###
 * FEEDBACK is important to correct errors in perceptions and connections. Tadlock calls this predictive modeling, does this action really determine the outcome. Pair programming really increases deeper understanding and eliminates incorrect assumptions. Comments by peers in social and professional media are the feedback methods often used by developers. 
 * SEE A BETTER/FASTER WAY - The power law of learning can be overcome if the subject is shown a more effective way to accomplish the task. Viewing a film of an action is observational learning, which effectively gives the viewer new memories of a technique to draw upon for his or her future performances of the task. Watch tutorials, complete MOOCS, attend presentations, workshops, and conferences. Also, read and implement best practices from style guides.
-* REPEATED PRACTICE IN PROCESS FOR SPEED IN DECISIONS - Faster decisions because skil has become automated. Practice in HackerRank, CodeWars, and InterviewCake to build skills in using the tools in different ways for speed and breadth of use.
-* REPEATED PRACTICE FOR KNOWLEDGE - Important to this phase of the model is experience and factual knowledge store for the observed skill.  
-
+* REPEATED PRACTICE IN PROCESS FOR KNOWLEDGE AND SPEED IN DECISIONS - Faster decisions because skill has become automated. Practice in HackerRank, CodeWars, and InterviewCake to build skills in using the tools in different ways for speed and breadth of use.
