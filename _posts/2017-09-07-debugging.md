@@ -9,7 +9,7 @@ title:  "Debugging"
 ![Debug in VSCode](/assets/images/debug-menu.png)    
 
 ## Follow Best Practices, use Style Guides to help prevent bugs ##
-Your employer may have their own requiements.
+Your employer may have their own requirements.
 
 JavaScript
 - [Airbnb JS Style Guide](https://github.com/airbnb/javascript)
@@ -18,14 +18,14 @@ JavaScript
 - [Airbnb Ruby Style Guide](https://github.com/airbnb/ruby)
 
 ## Use Linters to identify problems quickly ##
-I use linter plugins in my editor(VSCode) and automated testing on open-source projects
+I use linter plugins in my editor(VSCode) and automated testing on open-source projects.
 - [ESLint plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [RuboCop plugin](https://marketplace.visualstudio.com/items?itemName=misogi.ruby-rubocop)
 - [CircleCi](https://circleci.com)
 - [TravisCi - Open Source Testing](https://travisci.org)
 
 ## Steps ##
-1.	Identify – what is actually happening vs. what you expecte
+1.	Identify – what is actually happening vs. what you expected
 2.	Reproduce – outline exact reproduction steps
 3.	Isolate – where is the bug happening in your code (trace where it goes awry). This is MUCH easier if using small steps and TDD.
 4.	Understand – carefully analyze that line to see what is wrong
@@ -67,7 +67,7 @@ debug(myobj.functionName)
 - Use monitor() to see which arguments are passed into a function (warning: it doesn't check how many it expects)
 - Use $('css-selector') to see the return of the first match on that selector. Use $$('css-selector') to see all.
 
-3. I like to use my own style messages
+3. I use my own style messages, too:
 
 ```
 console.todo = function(msg) {
