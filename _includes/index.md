@@ -1,10 +1,12 @@
 ---
-layout: single
+layout: single 
 title: "Projects"
-date: 2018-08-01 07:2
 ---
 
-[![Whodat logo][/assets/images/whodat-LOGO-small.png]][https://github.com/bperlik/whodat]
+
+[![Whodat logo](/assets/images/whodat-logo-small.png)](https://github.com/bperlik/whodat)
+
+## [Whodat](https://github.com/bperlik/whodat) ##
 
 A quick, easy Ruby Gem that adds very simple users and sessions to your Rails app, removing the task of long set up of more complex user gems during development.
 I used a Rails engine and BCrypt. It's very simple to add to a Rails project and have a user to start development right away. It's an open source project, so contributions are desired and welcomed!

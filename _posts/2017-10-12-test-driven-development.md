@@ -1,6 +1,9 @@
 ---
 layout: single
 title:  "TDD"
+toc: true
+toc: "Table of contents"
+toc_icon: "cog"
 ---
 
 >First solve the problem, then write the code. 

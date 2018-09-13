@@ -93,3 +93,14 @@ I find that identifying most bugs in Ruby can be relatively easy if using RSpec 
 6.	RSpec - gotta love TDD with RSpec
 7.	Rails – monitor rails server responses
 8.  Logs
+
+The number one error message, undefined method "your_method" for nil:NilClass
+  I look at the stack trace
+  Start with the top line, where the error occurred (but may have originated earlier)
+    file name
+    line number
+    method name
+    error message
+    class name 
+    exceptions 
+  If I don't understand the message or exception, I select it, and 
