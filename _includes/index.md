@@ -4,15 +4,15 @@ title: "Projects"
 ---
 
 
-[![Whodat logo](/assets/images/whodat-logo-small.png)](https://github.com/bperlik/whodat)
+[![Whodat logo](/assets/images/whodat-logo-small.png)](https://github.com/bperlik/whodat){:target="_blank"}
 
-## [Whodat](https://github.com/bperlik/whodat) ##
+## [Whodat](https://github.com/bperlik/whodat){:target="_blank"} ##
 
 A quick, easy Ruby Gem that adds very simple users and sessions to your Rails app, removing the task of long set up of more complex user gems during development.
 I used a Rails engine and BCrypt. It's very simple to add to a Rails project and have a user to start development right away. It's an open source project, so contributions are desired and welcomed!
 
 
-## [Blocipedia](https://blocipedia-bperlik.herokuapp.com/) ##
+## [Blocipedia](https://blocipedia-bperlik.herokuapp.com/){:target="_blank"} ##
 
 A social, markdown wiki app that lets users create their own wikis and share them publicly or privately with other collaborators. Its buildt on Ruby on Rails, using Bootstrap, SQLite (for testing and development) and PostgreSQL (for production).  I used Devise for user authentication, SendGrid for email confirmation, Pundit for authorization, and Stripe for payments.
 
