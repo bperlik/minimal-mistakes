@@ -1,9 +1,10 @@
 ---
-layout: single
+layout: posts
 title: "How To Learn a New Skill"
 ---
 
-Focusing on WHY instead of WHAT will make you a better developer. -Jordi Boggiano
+"WHY instead of WHAT will make you a better developer." - Jordi Boggiano
+
 ![Learn Together](/assets/images/learn-together-john-schnobrich.jpg)      
 
 *(my notes from taking a Coursera class on learning and how I applied to learning software development)*

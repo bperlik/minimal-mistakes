@@ -3,10 +3,14 @@ main:
   - title: "About"
     url: /_pages/about
 
-  - title: "Posts"
+  - title: "My Blog"
     url: /_posts/
 
+  # - title: "Contact" 
+  #  url: /_pages/contact
+  
   # - title: "Sample Collections"
   #   url: /collection-archive/
+
   # - title: "Sitemap"
   #   url: /sitemap/

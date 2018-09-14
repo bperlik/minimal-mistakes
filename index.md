@@ -3,7 +3,7 @@ layout: single
 title: "Projects"
 ---
 
-[![Whodat logo](/assets/images/whodat-LOGO-small.png)](https://github.com/bperlik/whodat/){:target="_blank"}
+[![Whodat logo](/assets/images/whodat-logo-small.png)](https://github.com/bperlik/whodat/){:target="_blank"}
 
 ## [Whodat](https://github.com/bperlik/whodat){:target="_blank"} ##
 

@@ -1,13 +1,10 @@
 ---
-layout: single
-title:  "TDD"
-toc: true
-toc: "Table of contents"
-toc_icon: "cog"
+layout: posts
+title:  "Test Driven Development"
 ---
 
->First solve the problem, then write the code. 
->                            __ John Johnson
+>"First solve the problem, then write the code." 
+>                            - John Johnson
 
  I love Test Driven Development (TDD) because it makes you focus your coding efforts to a specific task, like mini Agile Scrum sprints. Having written some code years ago before TDD was used, I noted how much it speeds up the process and saves a lot of wasted effort in writing and debugging.
 

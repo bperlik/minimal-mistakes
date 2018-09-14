@@ -1,10 +1,10 @@
 ---
-layout: single
+layout: posts
 title:  "Debugging"
 ---
 
->Fix the cause, not the symptom. 
->                 -- Steve Maguire
+>"Fix the cause, not the symptom."
+>                 - Steve Maguire
 
 ![Debug in VSCode](/assets/images/debug-menu.png)    
 

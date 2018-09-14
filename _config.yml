@@ -281,7 +281,6 @@ defaults:
   # _pages
   - scope:
       #permalink: /:pages/:title
-      permalink: /:pages/:title
       path: ""
       type: pages
     values:
