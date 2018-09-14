@@ -4,7 +4,7 @@ title: "Projects"
 ---
 TEST 
 
-![Whodat logo](/assets/images/whodat-logo-small.png)
+![Whodat logo](../assets/images/whodat-logo-small.png)
 
 [Whodat](https://github.com/bperlik/whodat)
 
