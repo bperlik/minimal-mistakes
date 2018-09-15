@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "periwinkle2" #,"air", "aqua", "contrast", "dark", "d
 
 # Site Settings
 locale                   : "en-US"
-title                    : "barbara.perlik.codes"
+title                    : "Success is built on learning from failures."
 title_separator          : "-"
 name                     : "Barbara Perlik"
 description              : "bperlik-portfolio.herokuapp.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -105,7 +105,7 @@ author:
   location         : "Northern Virginia"
   email            : "me@barbaraperlik.com"
   uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
+  home             : "/" # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -118,13 +118,13 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "barbara-perlik-codes" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "barbaraperlik" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : "6854943/bperlik"  # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "BarbPerlik"
+  twitter          : "barbaraperlik"
   vine             :
   weibo            :
   xing             :

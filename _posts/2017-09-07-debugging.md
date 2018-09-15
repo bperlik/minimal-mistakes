@@ -94,8 +94,9 @@ I find that identifying most bugs in Ruby can be relatively easy if using RSpec 
 7.	Rails – monitor rails server responses
 8.  Logs
 
-The number one error message, undefined method "your_method" for nil:NilClass
-  I look at the stack trace
+ERROR MESSAGE?
+The number one error message is undefined method "your_method" for nil:NilClass
+Look at the stack trace
   Start with the top line, where the error occurred (but may have originated earlier)
     file name
     line number
@@ -103,4 +104,11 @@ The number one error message, undefined method "your_method" for nil:NilClass
     error message
     class name 
     exceptions 
-  If I don't understand the message or exception, I select it, and 
+    Un-minify if that helps (click on {} in lower left of Chrome Developer Tools)
+If I don't understand the message or exception, I select it, and cntrl-alt-g to look it up using Google.
+    consider the source - it is official, professional?
+    consider if instructional or informational
+    a video tutorial by a reputable instructor
+    try it a bit in repl.it or test app
+    if it works, use it, it can be optimized later
+
