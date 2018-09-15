@@ -5,7 +5,9 @@ date: 2018-08-01 07:24
 ---
 ![Headshot](/assets/images/bio-pic.jpg)      
 
->"I am always doing that which I cannot do, in order that I may learn how to do it." - Pablo Picasso
+>"Success is the result of perfection, hard work, learning from failure, loyalty, and persistence." - Colin Powell
+
+
 
 ## Researcher turned Software Developer ##
 

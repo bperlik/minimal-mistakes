@@ -3,7 +3,9 @@ layout: posts
 title: "How To Learn a New Skill"
 ---
 
-"WHY instead of WHAT will make you a better developer." - Jordi Boggiano
+
+
+>"I am always doing that which I cannot do, in order that I may learn how to do it." - Pablo Picasso
 
 ![Learn Together](/assets/images/learn-together-john-schnobrich.jpg)      
 
