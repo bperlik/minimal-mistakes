@@ -7,8 +7,6 @@ date: 2018-08-01 07:24
 
 >"Success is the result of perfection, hard work, learning from failure, loyalty, and persistence." - Colin Powell
 
-
-
 ## Researcher turned Software Developer ##
 
 Dabbling in code has always been a hobby of mine since I was young. It wasn’t until I started data analysis and setting up layouts in fundraising software that I realized how much I enjoyed it. I love researching, computers, and helping others learn, so I worked my way up in data analysis and prospect research in higher education fundraising. However, when I realized that I loved coding just as much as I loved research, I knew it was time to make a career change.
